@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vLu-3R-iel">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--About Table View Controller-->
+        <scene sceneID="Y8r-LJ-uXR">
+            <objects>
+                <tableViewController id="vLu-3R-iel" customClass="AboutTableViewController" customModule="FruitKey" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="VUp-43-B6H">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Fruit Key" id="hzb-0c-bAs">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="6ig-pl-zaU">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6ig-pl-zaU" id="4Ei-gV-Jfm">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSe-ds-Boc">
+                                                    <rect key="frame" x="16" y="12" width="568" height="19.5"/>
+                                                    <string key="text">Apple appears to be naming their new products with names starting with  instead of i. Since the default keyboard does not provide a way to type in , I thought this keyboard might be useful.</string>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="OSe-ds-Boc" firstAttribute="leading" secondItem="4Ei-gV-Jfm" secondAttribute="leadingMargin" constant="8" id="8pA-mN-apn"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="OSe-ds-Boc" secondAttribute="bottom" constant="4" id="X7U-7O-dKW"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="OSe-ds-Boc" secondAttribute="trailing" constant="8" id="f4n-NM-PK0"/>
+                                                <constraint firstItem="OSe-ds-Boc" firstAttribute="top" secondItem="4Ei-gV-Jfm" secondAttribute="topMargin" constant="4" id="oxd-uk-EDF"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="SaturdayApps" id="lqK-3p-0Kf">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="F4d-gm-Wlm">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F4d-gm-Wlm" id="uNq-nf-2Rs">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saturdayAppsAbout" translatesAutoresizingMaskIntoConstraints="NO" id="fAg-Id-NDR">
+                                                    <rect key="frame" x="225" y="-54" width="150" height="150.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="150" id="Qlo-bh-KQo"/>
+                                                        <constraint firstAttribute="width" secondItem="fAg-Id-NDR" secondAttribute="height" multiplier="1:1" id="kn8-hw-l4O"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="centerY" secondItem="fAg-Id-NDR" secondAttribute="centerY" id="SHI-07-w4D"/>
+                                                <constraint firstItem="fAg-Id-NDR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="uNq-nf-2Rs" secondAttribute="leadingMargin" priority="750" constant="4" id="Ycd-ef-DbX"/>
+                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="fAg-Id-NDR" secondAttribute="bottom" priority="750" constant="4" id="iAk-jH-B3c"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="fAg-Id-NDR" secondAttribute="trailing" priority="750" constant="4" id="kUw-Xr-Djf"/>
+                                                <constraint firstAttribute="centerX" secondItem="fAg-Id-NDR" secondAttribute="centerX" id="mHZ-Yi-NXk"/>
+                                                <constraint firstItem="fAg-Id-NDR" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uNq-nf-2Rs" secondAttribute="topMargin" priority="750" constant="4" id="prG-hH-PGa"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="nsj-Yj-JJM">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nsj-Yj-JJM" id="rqO-R0-1Ti">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wK6-yi-cPQ">
+                                                    <rect key="frame" x="16" y="12" width="568" height="19.5"/>
+                                                    <string key="text">My name is Jeff. I'm a professional designer. I like making Apps in my spare time. If you like this keyboard, send me an email. Its a great ego boost :)</string>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="wK6-yi-cPQ" secondAttribute="bottom" constant="4" id="6gX-um-PdU"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="wK6-yi-cPQ" secondAttribute="trailing" constant="8" id="ABU-MQ-mXw"/>
+                                                <constraint firstItem="wK6-yi-cPQ" firstAttribute="leading" secondItem="rqO-R0-1Ti" secondAttribute="leadingMargin" constant="8" id="cGx-FI-QSn"/>
+                                                <constraint firstItem="wK6-yi-cPQ" firstAttribute="top" secondItem="rqO-R0-1Ti" secondAttribute="topMargin" constant="4" id="cz3-fm-T1S"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="keQ-V5-BiA">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="keQ-V5-BiA" id="KYl-Dt-8Vd">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2n-j8-brv">
+                                                    <rect key="frame" x="16" y="12" width="568" height="19.5"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <state key="normal" title="Email Me">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="didTapEmailMeButton:" destination="vLu-3R-iel" eventType="touchUpInside" id="8Ih-ox-RL9"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="T2n-j8-brv" secondAttribute="bottom" constant="4" id="DKs-aI-BVP"/>
+                                                <constraint firstItem="T2n-j8-brv" firstAttribute="leading" secondItem="KYl-Dt-8Vd" secondAttribute="leadingMargin" constant="8" id="T9M-Vw-all"/>
+                                                <constraint firstItem="T2n-j8-brv" firstAttribute="top" secondItem="KYl-Dt-8Vd" secondAttribute="topMargin" constant="4" id="Xrr-dI-xJ1"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="T2n-j8-brv" secondAttribute="trailing" constant="8" id="dC0-iM-8vq"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="ce9-ed-cec">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ce9-ed-cec" id="ZSD-ew-XLy">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m30-PA-Pm1">
+                                                    <rect key="frame" x="16" y="12" width="568" height="19.5"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <state key="normal" title="Review this App">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="didTapReviewThisAppButton:" destination="vLu-3R-iel" eventType="touchUpInside" id="A4q-o1-cUq"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="m30-PA-Pm1" firstAttribute="top" secondItem="ZSD-ew-XLy" secondAttribute="topMargin" constant="4" id="9ez-V8-bDf"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="m30-PA-Pm1" secondAttribute="bottom" constant="4" id="FFS-dZ-3oo"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="m30-PA-Pm1" secondAttribute="trailing" constant="8" id="mU0-pw-Y0h"/>
+                                                <constraint firstItem="m30-PA-Pm1" firstAttribute="leading" secondItem="ZSD-ew-XLy" secondAttribute="leadingMargin" constant="8" id="nXa-0U-xaf"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="vLu-3R-iel" id="nTK-fo-haA"/>
+                            <outlet property="delegate" destination="vLu-3R-iel" id="d6S-Lc-0yb"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="appDescriptionTextLabel" destination="OSe-ds-Boc" id="dXM-Uq-64Z"/>
+                        <outlet property="companyEmailMeButton" destination="T2n-j8-brv" id="0vN-PG-QBK"/>
+                        <outlet property="companyImageView" destination="fAg-Id-NDR" id="829-hc-F3g"/>
+                        <outlet property="companyReviewThisAppButton" destination="m30-PA-Pm1" id="Olr-ta-0ad"/>
+                        <outlet property="companyTextLabel" destination="wK6-yi-cPQ" id="Ard-ew-qPQ"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="shq-wH-Ro1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="824" y="534"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="saturdayAppsAbout" width="1892" height="1892"/>
+    </resources>
+</document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tabBarController id="lDM-NA-qFR">
+            <nil key="simulatedBottomBarMetrics"/>
+            <tabBar key="tabBar" contentMode="scaleToFill" id="WGN-bH-yTd">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tabBar>
+            <viewControllers>
+                <viewController title="How to Install" id="iGN-Gk-xoO">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pOY-r6-OZR"/>
+                        <viewControllerLayoutGuide type="bottom" id="CPc-lD-bYL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qg1-N0-SRg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ecU-kv-1q1">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem id="Vm0-b0-RlE"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ecU-kv-1q1" firstAttribute="top" secondItem="pOY-r6-OZR" secondAttribute="bottom" id="77g-yC-Msz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ecU-kv-1q1" secondAttribute="trailing" constant="-16" id="Ho7-Ng-FK8"/>
+                            <constraint firstItem="ecU-kv-1q1" firstAttribute="leading" secondItem="Qg1-N0-SRg" secondAttribute="leadingMargin" constant="-16" id="TmE-nb-Hfn"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="tabBar1" id="DQx-AG-lz0"/>
+                </viewController>
+                <viewController title=" How to Use" id="8gd-S2-AKD">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xgs-IH-D99"/>
+                        <viewControllerLayoutGuide type="bottom" id="vT4-n3-Aey"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="paI-Jg-A9W">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="tabBar2" id="Yuf-4C-D1q"/>
+                </viewController>
+                <viewController title="About" id="nBo-3v-gRa">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IIe-5L-EBo"/>
+                        <viewControllerLayoutGuide type="bottom" id="YtI-O4-hxd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rLH-kz-WhW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="tabBar3" id="D7X-xv-ns1"/>
+                </viewController>
+            </viewControllers>
+            <point key="canvasLocation" x="458" y="434"/>
+        </tabBarController>
+    </objects>
+    <resources>
+        <image name="tabBar1" width="32" height="32"/>
+        <image name="tabBar2" width="32" height="32"/>
+        <image name="tabBar3" width="32" height="32"/>
+    </resources>
+</document>

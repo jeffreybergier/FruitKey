@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		732DFC0D1A01C3C3007501E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DFC0C1A01C3C3007501E8 /* AppDelegate.swift */; };
+		732DFC0F1A01C3C3007501E8 /* LoopingMoviePlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DFC0E1A01C3C3007501E8 /* LoopingMoviePlayerController.swift */; };
+		732DFC141A01C3C3007501E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732DFC131A01C3C3007501E8 /* Images.xcassets */; };
+		732DFC171A01C3C3007501E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732DFC151A01C3C3007501E8 /* LaunchScreen.xib */; };
+		732DFC231A01C3C3007501E8 /* FruitKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DFC221A01C3C3007501E8 /* FruitKeyTests.swift */; };
+		732DFC351A01C549007501E8 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DFC341A01C549007501E8 /* KeyboardViewController.swift */; };
+		732DFC381A01C549007501E8 /* FKKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 732DFC301A01C549007501E8 /* FKKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		732DFC3E1A01C898007501E8 /* FKKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732DFC3D1A01C898007501E8 /* FKKeyboardView.xib */; };
+		732DFC401A01C8E0007501E8 /* FKKeyboardKeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DFC3F1A01C8E0007501E8 /* FKKeyboardKeyButton.swift */; };
+		732DFC421A01CBFF007501E8 /* FKKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DFC411A01CBFF007501E8 /* FKKeyboardView.swift */; };
+		732DFC441A01E24E007501E8 /* FKColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732DFC431A01E24E007501E8 /* FKColorProvider.swift */; };
+		732F51361A05BFAC0074DF74 /* AboutTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732F51351A05BFAC0074DF74 /* AboutTableViewController.storyboard */; };
+		732F51381A05C08D0074DF74 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F51371A05C08D0074DF74 /* AboutTableViewController.swift */; };
+		732F513A1A05C38D0074DF74 /* FKTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F51391A05C38D0074DF74 /* FKTabBarController.swift */; };
+		732F513C1A05D81E0074DF74 /* FKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F513B1A05D81E0074DF74 /* FKNavigationController.swift */; };
+		7334386C1A06BC2B006A5AEC /* howToUseVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7334386B1A06BC2B006A5AEC /* howToUseVideo.mp4 */; };
+		737054AE1A03E8FB00414911 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732DFC131A01C3C3007501E8 /* Images.xcassets */; };
+		73A448691A06DDC7004EE935 /* howToInstallVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 73A448671A06DAC0004EE935 /* howToInstallVideo.mp4 */; };
+		73A4486F1A06E7E5004EE935 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73A4486D1A06E7E5004EE935 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		732DFC1D1A01C3C3007501E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732DFBFF1A01C3B6007501E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732DFC061A01C3B8007501E8;
+			remoteInfo = FruitKey;
+		};
+		732DFC361A01C549007501E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732DFBFF1A01C3B6007501E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732DFC2F1A01C549007501E8;
+			remoteInfo = FKKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		732DFC3C1A01C549007501E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				732DFC381A01C549007501E8 /* FKKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		732DFC071A01C3B8007501E8 /* FruitKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		732DFC0B1A01C3BC007501E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732DFC0C1A01C3C3007501E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		732DFC0E1A01C3C3007501E8 /* LoopingMoviePlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingMoviePlayerController.swift; sourceTree = "<group>"; };
+		732DFC131A01C3C3007501E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		732DFC161A01C3C3007501E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		732DFC1C1A01C3C3007501E8 /* FruitKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		732DFC211A01C3C3007501E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732DFC221A01C3C3007501E8 /* FruitKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitKeyTests.swift; sourceTree = "<group>"; };
+		732DFC301A01C549007501E8 /* FKKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FKKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		732DFC331A01C549007501E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732DFC341A01C549007501E8 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		732DFC3D1A01C898007501E8 /* FKKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FKKeyboardView.xib; sourceTree = "<group>"; };
+		732DFC3F1A01C8E0007501E8 /* FKKeyboardKeyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKKeyboardKeyButton.swift; sourceTree = "<group>"; };
+		732DFC411A01CBFF007501E8 /* FKKeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKKeyboardView.swift; sourceTree = "<group>"; };
+		732DFC431A01E24E007501E8 /* FKColorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKColorProvider.swift; sourceTree = "<group>"; };
+		732F51351A05BFAC0074DF74 /* AboutTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AboutTableViewController.storyboard; sourceTree = "<group>"; };
+		732F51371A05C08D0074DF74 /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		732F51391A05C38D0074DF74 /* FKTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKTabBarController.swift; sourceTree = "<group>"; };
+		732F513B1A05D81E0074DF74 /* FKNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKNavigationController.swift; sourceTree = "<group>"; };
+		7334386B1A06BC2B006A5AEC /* howToUseVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = howToUseVideo.mp4; sourceTree = "<group>"; };
+		73A448671A06DAC0004EE935 /* howToInstallVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = howToInstallVideo.mp4; sourceTree = "<group>"; };
+		73A4486E1A06E7E5004EE935 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732DFC041A01C3B8007501E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732DFC191A01C3C3007501E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732DFC2D1A01C549007501E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		732DFBFE1A01C3B6007501E8 = {
+			isa = PBXGroup;
+			children = (
+				732DFC091A01C3B8007501E8 /* FruitKey */,
+				732DFC1F1A01C3C3007501E8 /* FruitKeyTests */,
+				732DFC311A01C549007501E8 /* FKKeyboard */,
+				732DFC081A01C3B8007501E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		732DFC081A01C3B8007501E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732DFC071A01C3B8007501E8 /* FruitKey.app */,
+				732DFC1C1A01C3C3007501E8 /* FruitKeyTests.xctest */,
+				732DFC301A01C549007501E8 /* FKKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732DFC091A01C3B8007501E8 /* FruitKey */ = {
+			isa = PBXGroup;
+			children = (
+				732DFC0C1A01C3C3007501E8 /* AppDelegate.swift */,
+				732F51391A05C38D0074DF74 /* FKTabBarController.swift */,
+				732F513B1A05D81E0074DF74 /* FKNavigationController.swift */,
+				732DFC0E1A01C3C3007501E8 /* LoopingMoviePlayerController.swift */,
+				732F51371A05C08D0074DF74 /* AboutTableViewController.swift */,
+				732F51351A05BFAC0074DF74 /* AboutTableViewController.storyboard */,
+				732DFC131A01C3C3007501E8 /* Images.xcassets */,
+				73A448671A06DAC0004EE935 /* howToInstallVideo.mp4 */,
+				7334386B1A06BC2B006A5AEC /* howToUseVideo.mp4 */,
+				732DFC151A01C3C3007501E8 /* LaunchScreen.xib */,
+				732DFC0A1A01C3B8007501E8 /* Supporting Files */,
+			);
+			path = FruitKey;
+			sourceTree = "<group>";
+		};
+		732DFC0A1A01C3B8007501E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73A4486C1A06E746004EE935 /* en.lproj */,
+				732DFC0B1A01C3BC007501E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		732DFC1F1A01C3C3007501E8 /* FruitKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				732DFC221A01C3C3007501E8 /* FruitKeyTests.swift */,
+				732DFC201A01C3C3007501E8 /* Supporting Files */,
+			);
+			path = FruitKeyTests;
+			sourceTree = "<group>";
+		};
+		732DFC201A01C3C3007501E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				732DFC211A01C3C3007501E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		732DFC311A01C549007501E8 /* FKKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				732DFC341A01C549007501E8 /* KeyboardViewController.swift */,
+				732DFC411A01CBFF007501E8 /* FKKeyboardView.swift */,
+				732DFC3D1A01C898007501E8 /* FKKeyboardView.xib */,
+				732DFC3F1A01C8E0007501E8 /* FKKeyboardKeyButton.swift */,
+				732DFC431A01E24E007501E8 /* FKColorProvider.swift */,
+				732DFC321A01C549007501E8 /* Supporting Files */,
+			);
+			path = FKKeyboard;
+			sourceTree = "<group>";
+		};
+		732DFC321A01C549007501E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				732DFC331A01C549007501E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73A4486C1A06E746004EE935 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				73A4486D1A06E7E5004EE935 /* Localizable.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		732DFC061A01C3B8007501E8 /* FruitKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732DFC261A01C3C3007501E8 /* Build configuration list for PBXNativeTarget "FruitKey" */;
+			buildPhases = (
+				732DFC031A01C3B8007501E8 /* Sources */,
+				732DFC041A01C3B8007501E8 /* Frameworks */,
+				732DFC051A01C3B8007501E8 /* Resources */,
+				732DFC3C1A01C549007501E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732DFC371A01C549007501E8 /* PBXTargetDependency */,
+			);
+			name = FruitKey;
+			productName = FruitKey;
+			productReference = 732DFC071A01C3B8007501E8 /* FruitKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		732DFC1B1A01C3C3007501E8 /* FruitKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732DFC291A01C3C3007501E8 /* Build configuration list for PBXNativeTarget "FruitKeyTests" */;
+			buildPhases = (
+				732DFC181A01C3C3007501E8 /* Sources */,
+				732DFC191A01C3C3007501E8 /* Frameworks */,
+				732DFC1A1A01C3C3007501E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732DFC1E1A01C3C3007501E8 /* PBXTargetDependency */,
+			);
+			name = FruitKeyTests;
+			productName = FruitKeyTests;
+			productReference = 732DFC1C1A01C3C3007501E8 /* FruitKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		732DFC2F1A01C549007501E8 /* FKKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732DFC391A01C549007501E8 /* Build configuration list for PBXNativeTarget "FKKeyboard" */;
+			buildPhases = (
+				732DFC2C1A01C549007501E8 /* Sources */,
+				732DFC2D1A01C549007501E8 /* Frameworks */,
+				732DFC2E1A01C549007501E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FKKeyboard;
+			productName = FKKeyboard;
+			productReference = 732DFC301A01C549007501E8 /* FKKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		732DFBFF1A01C3B6007501E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FK;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Saturday Apps";
+				TargetAttributes = {
+					732DFC061A01C3B8007501E8 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = V6ESYGU6CV;
+					};
+					732DFC1B1A01C3C3007501E8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 732DFC061A01C3B8007501E8;
+					};
+					732DFC2F1A01C549007501E8 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = V6ESYGU6CV;
+					};
+				};
+			};
+			buildConfigurationList = 732DFC021A01C3B6007501E8 /* Build configuration list for PBXProject "FruitKey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 732DFBFE1A01C3B6007501E8;
+			productRefGroup = 732DFC081A01C3B8007501E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732DFC061A01C3B8007501E8 /* FruitKey */,
+				732DFC1B1A01C3C3007501E8 /* FruitKeyTests */,
+				732DFC2F1A01C549007501E8 /* FKKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		732DFC051A01C3B8007501E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7334386C1A06BC2B006A5AEC /* howToUseVideo.mp4 in Resources */,
+				73A4486F1A06E7E5004EE935 /* Localizable.strings in Resources */,
+				732F51361A05BFAC0074DF74 /* AboutTableViewController.storyboard in Resources */,
+				732DFC171A01C3C3007501E8 /* LaunchScreen.xib in Resources */,
+				732DFC141A01C3C3007501E8 /* Images.xcassets in Resources */,
+				73A448691A06DDC7004EE935 /* howToInstallVideo.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732DFC1A1A01C3C3007501E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732DFC2E1A01C549007501E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732DFC3E1A01C898007501E8 /* FKKeyboardView.xib in Resources */,
+				737054AE1A03E8FB00414911 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		732DFC031A01C3B8007501E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732F513A1A05C38D0074DF74 /* FKTabBarController.swift in Sources */,
+				732F513C1A05D81E0074DF74 /* FKNavigationController.swift in Sources */,
+				732DFC0F1A01C3C3007501E8 /* LoopingMoviePlayerController.swift in Sources */,
+				732DFC0D1A01C3C3007501E8 /* AppDelegate.swift in Sources */,
+				732F51381A05C08D0074DF74 /* AboutTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732DFC181A01C3C3007501E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732DFC231A01C3C3007501E8 /* FruitKeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732DFC2C1A01C549007501E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732DFC421A01CBFF007501E8 /* FKKeyboardView.swift in Sources */,
+				732DFC351A01C549007501E8 /* KeyboardViewController.swift in Sources */,
+				732DFC401A01C8E0007501E8 /* FKKeyboardKeyButton.swift in Sources */,
+				732DFC441A01E24E007501E8 /* FKColorProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		732DFC1E1A01C3C3007501E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732DFC061A01C3B8007501E8 /* FruitKey */;
+			targetProxy = 732DFC1D1A01C3C3007501E8 /* PBXContainerItemProxy */;
+		};
+		732DFC371A01C549007501E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732DFC2F1A01C549007501E8 /* FKKeyboard */;
+			targetProxy = 732DFC361A01C549007501E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		732DFC151A01C3C3007501E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732DFC161A01C3C3007501E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		73A4486D1A06E7E5004EE935 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A4486E1A06E7E5004EE935 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		732DFC241A01C3C3007501E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		732DFC251A01C3C3007501E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		732DFC271A01C3C3007501E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = FruitKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		732DFC281A01C3C3007501E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = FruitKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		732DFC2A1A01C3C3007501E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FruitKeyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FruitKey.app/FruitKey";
+			};
+			name = Debug;
+		};
+		732DFC2B1A01C3C3007501E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FruitKeyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FruitKey.app/FruitKey";
+			};
+			name = Release;
+		};
+		732DFC3A1A01C549007501E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FKKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		732DFC3B1A01C549007501E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FKKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		732DFC021A01C3B6007501E8 /* Build configuration list for PBXProject "FruitKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732DFC241A01C3C3007501E8 /* Debug */,
+				732DFC251A01C3C3007501E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732DFC261A01C3C3007501E8 /* Build configuration list for PBXNativeTarget "FruitKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732DFC271A01C3C3007501E8 /* Debug */,
+				732DFC281A01C3C3007501E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732DFC291A01C3C3007501E8 /* Build configuration list for PBXNativeTarget "FruitKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732DFC2A1A01C3C3007501E8 /* Debug */,
+				732DFC2B1A01C3C3007501E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732DFC391A01C549007501E8 /* Build configuration list for PBXNativeTarget "FKKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732DFC3A1A01C549007501E8 /* Debug */,
+				732DFC3B1A01C549007501E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 732DFBFF1A01C3B6007501E8 /* Project object */;
+}
