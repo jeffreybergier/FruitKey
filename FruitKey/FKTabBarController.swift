@@ -55,7 +55,7 @@ class FKTabBarController: UITabBarController {
             numberOfSegments = viewControllers.count
             for i in 0..<viewControllers.count {
                 if let selectedViewController = self.selectedViewController {
-                    if selectedViewController == viewControllers[i] as UIViewController {
+                    if selectedViewController == viewControllers[i] as! UIViewController {
                         selectedSegmentIndex = i
                     }
                 }
